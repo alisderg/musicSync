@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>music sync | login </title>
+<link href="loginCss.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h1 class="heading"> musicSync</h1>
+	</div>
+	<div class="content">
+		<div class="hi">
+	
+			hello
+			<br><br>
+		<div class="login" id="login">
+		user id: <input type="email" name="userId" size="25" /><br><br>
+		password:<input type="password" name="password" size="25" /><br><Br>
+		<p class="createIdLink" onclick="createNewId()" >click here to create new user</p><br>
+		<input type="submit" name="submit" value="log In"/>
+		<input type="reset" name="reset" value="reset" />
+		
+		</div>
+		<div class="createId" id="createId">
+		</div>
+asdfasdfasdfasdf
+		</div>
+	</div>
+	<div class="footer">
+	</div>
+</div>
+<script>
+function createNewId()
+{
+document.getElementById('login').style.display=' none ' ;
+document.getElementById('createId').style.display= 'block' ;
+};
+</script>
+
+</body>
+</html> 
